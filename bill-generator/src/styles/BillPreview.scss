@@ -1,0 +1,87 @@
+.invoice-preview {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  
+    .invoice-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-bottom: 2rem;
+  
+      .logo {
+        width: 80px;
+        height: 80px;
+        background: #e0e0e0;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
+  
+      .company-info {
+        text-align: center;
+  
+        h3 {
+          font-size: 2rem;
+          margin: 0;
+          color: darkblue
+        }
+      }
+    }
+  
+    .invoice-meta {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+  
+      .issued-to,
+      .invoice-details {
+        font-size: 0.9rem;
+      }
+  
+      strong {
+        color: #444;
+      }
+    }
+
+    .download-button {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        button{
+            background-color: #13d7bd;
+            color: white;
+            border: aliceblue;
+            padding: 10px;
+        }
+    }
+   
+
+  
+    .invoice-table {
+      h5 {
+        text-align: center;
+      }
+    }
+  
+    .totals {
+      text-align: right;
+      font-size: 1rem;
+  
+      .total {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+  
